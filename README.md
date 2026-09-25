@@ -1,56 +1,42 @@
-# Welcome to your Expo app 👋
+# Moments — by Shop2Ship
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The planning side of Shop2Ship. Tell us what's coming up; the S2S agent and a person on your S2S team plan it, source it (including shops that can't be searched), price it landed, and count it down to the day.
 
-## Get started
+This build is **UI only** — typed mock data, no backend (Expo SDK 57, React Native 0.86, Expo Router).
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Run it
 
 ```bash
-npm run reset-project
+npm install            # also copies Skia's canvaskit.wasm into public/ (postinstall)
+npx expo start         # scan with Expo Go (iOS / Android)
+npx expo start --web   # web preview (Skia runs on CanvasKit)
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Checks
 
-### Other setup steps
+```bash
+npm run typecheck      # regenerates typed routes (Windows-safe) then tsc
+npx expo lint
+npx expo-doctor
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+## Where things live
 
-## Learn more
+| Path | What |
+|---|---|
+| `src/app/` | Routes only — intro, onboarding, `(tabs)` (home, calendar, ideas, you), `plan/new`, `plan/run`, `moment/[id]` (+ item and quote sheets), `idea/[slug]`, `review`, `bin`, `notifications`, `dev/gallery` |
+| `src/theme/` | S2S tokens (navy/gold, ink + flare ramps), paper and ink themes, type scale (Manrope + Fredoka), shadows, motion (expo/spring curves, CSS keyframes) |
+| `src/components/brand/` | The "Sparkling day" mark and its animated states, the S2S mark, wordmark, textures, and the Skia particle field |
+| `src/components/mascot/` | The cast — Mo, Dot, Tiers, Bloop, Pip — hand-built SVG with a pose rig |
+| `src/data/` | Types, fixtures (moments, ideas, people, stores), the mock store and selectors |
+| `scripts/` | `gen-art.mjs` (Vertex AI art), `gen-brand-assets.mjs` (icons/splash from the mark), `gen-wordmark.mjs`, `gen-grain.mjs`, `typed-routes.mjs` |
 
-To learn more about developing your project with Expo, look at the following resources:
+## Regenerating assets
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+node scripts/gen-brand-assets.mjs     # app icon, splash, adaptive icons, iOS .icon from the mark
+node scripts/gen-art.mjs              # clay art + product shots (Vertex, uses Optiq's service account)
+node scripts/gen-art.mjs --index      # rebuild src/data/art-index.generated.ts only
+```
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+The dev gallery (`/dev/gallery`, or You → Component gallery) shows every primitive, mark state, character pose and particle chapter in both themes.

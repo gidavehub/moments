@@ -1,0 +1,289 @@
+{
+  "style": {
+    "clay": "Soft 3D clay render, cute and friendly, matte finish with subtle fine film grain, rounded chunky shapes, soft studio key light from the top left, gentle ambient occlusion, warm pastel palette of cream, sage, peach, blush and lilac with small gold (#F4A31C) and deep navy (#0D3052) accents. Minimal composition, the subject centred with generous empty padding on every side, isolated on a flat seamless solid {bg} background that fills the whole frame edge to edge — no gradient, no floor line, no horizon, no vignette, no border. No text, no letters, no numbers, no logos, no watermark.",
+    "product": "Clean e-commerce product photograph, the product centred with generous padding, soft even studio light, a very soft contact shadow, on a seamless pure white (#FFFFFF) background that fills the frame. Photorealistic, crisp, true colours. No text overlays, no watermark, no brand logos, no people.",
+    "cinematic": "Cinematic lifestyle photograph, shot on a full-frame camera with a 35mm lens at f/2, natural golden-hour light, warm filmic colour grade with soft highlights and rich but natural skin tones, gentle film grain, shallow depth of field, authentic candid emotion, editorial quality like a premium travel brand campaign. Vertical 9:16 composition: the main subjects sit in the upper two thirds of the frame; the lower third is calmer, softer, out-of-focus foreground detail with no faces (text will be placed there). No text, no readable signage, no letters, no logos, no watermark."
+  },
+  "items": [
+    {
+      "key": "cover-rooftop-30th",
+      "dir": "covers",
+      "aspect": "4:3",
+      "style": "clay",
+      "bg": "#FEEFC9",
+      "prompt": "A tiny rooftop birthday party diorama at golden hour: a small round table with a two-tier cream cake with a gold drip and one candle, a garland of gold and cream balloons arching behind it, warm string lights, two little cushioned lounge chairs"
+    },
+    {
+      "key": "cover-mom-gift",
+      "dir": "covers",
+      "aspect": "4:3",
+      "style": "clay",
+      "bg": "#ECE6FA",
+      "prompt": "A cute wrapped gift box in lilac paper with a big gold satin bow, a small bouquet of anthuriums and ginger lilies leaning against it, and a tiny potted plant beside it — a thoughtful birthday present for a mother who loves gardening"
+    },
+    {
+      "key": "cover-garden-shower",
+      "dir": "covers",
+      "aspect": "4:3",
+      "style": "clay",
+      "bg": "#E3EEDC",
+      "prompt": "A tiny garden baby shower diorama: a sage green and cream balloon arch over a small table with a cake, a stack of little gift boxes, a pair of tiny knitted baby booties, soft leafy plants around the base"
+    },
+    {
+      "key": "cover-friendsgiving",
+      "dir": "covers",
+      "aspect": "4:3",
+      "style": "clay",
+      "bg": "#DDF1FB",
+      "prompt": "A cosy tiny dinner table diorama for a Friendsgiving: a glazed ham on a platter, a pumpkin pie, a small jug of sorrel drink, two candles with warm flames, burnt orange napkins and autumn leaves"
+    },
+    {
+      "key": "cover-christmas",
+      "dir": "covers",
+      "aspect": "4:3",
+      "style": "clay",
+      "bg": "#FFE2D1",
+      "prompt": "A tiny Caribbean Christmas diorama: a small blue shipping barrel with a red ribbon bow full of wrapped gifts, a little decorated Christmas tree with a gold star, a pot of sorrel and a slice of dark fruit cake, a palm leaf peeking in"
+    },
+    {
+      "key": "occ-all",
+      "dir": "occasions",
+      "aspect": "3:4",
+      "style": "clay",
+      "bg": "#EFEDE8",
+      "prompt": "A cheerful little calendar page character with two gold binder rings on top like ears, a cute minimal face with two small dot eyes and a tiny smile, holding a small gold four-pointed sparkle star"
+    },
+    {
+      "key": "occ-birthday",
+      "dir": "occasions",
+      "aspect": "3:4",
+      "style": "clay",
+      "bg": "#FEEFC9",
+      "prompt": "A cute two-tier birthday cake character with pink icing drips and a single lit candle on top, a cute minimal face with two small dot eyes and rosy cheeks and a tiny smile, a few gold confetti pieces floating around it"
+    },
+    {
+      "key": "occ-baby",
+      "dir": "occasions",
+      "aspect": "3:4",
+      "style": "clay",
+      "bg": "#E3EEDC",
+      "prompt": "A sleepy fluffy cloud character in cream with a tiny sage green baby rattle beside it, a cute minimal face with closed happy eyes and rosy cheeks, two small sage balloons tied to it"
+    },
+    {
+      "key": "occ-wedding",
+      "dir": "occasions",
+      "aspect": "3:4",
+      "style": "clay",
+      "bg": "#F9E1DC",
+      "prompt": "Two chunky gold wedding rings leaning on each other like they are hugging, one with a small round gem, tiny blush petals floating around, each ring with a cute minimal face with small dot eyes and a tiny smile"
+    },
+    {
+      "key": "occ-christmas",
+      "dir": "occasions",
+      "aspect": "3:4",
+      "style": "clay",
+      "bg": "#FFE2D1",
+      "prompt": "A round shiny Christmas ornament character in deep coral red with a gold cap, a cute minimal face with two small dot eyes and a tiny smile, a small sprig of green leaves and a slice of dark fruit cake beside it"
+    },
+    {
+      "key": "occ-dinner",
+      "dir": "occasions",
+      "aspect": "3:4",
+      "style": "clay",
+      "bg": "#DDF1FB",
+      "prompt": "A cute round pumpkin pie character with a lattice crust and a dollop of cream on top, a cute minimal face with two small dot eyes and a tiny smile, a little fork beside it"
+    },
+    {
+      "key": "occ-gift",
+      "dir": "occasions",
+      "aspect": "3:4",
+      "style": "clay",
+      "bg": "#ECE6FA",
+      "prompt": "A cute cream gift box character with a big gold ribbon bow like a hair tuft, stubby little arms raised happily, a cute minimal face with two small dot eyes, rosy cheeks and a tiny open smile"
+    },
+    {
+      "key": "occ-home",
+      "dir": "occasions",
+      "aspect": "3:4",
+      "style": "clay",
+      "bg": "#EFEDE8",
+      "prompt": "A cute cardboard moving box character with the flaps open like a hat, a small desk lamp and a folded blanket peeking out, a cute minimal face with two small dot eyes and a tiny smile"
+    },
+    {
+      "key": "occ-trip",
+      "dir": "occasions",
+      "aspect": "3:4",
+      "style": "clay",
+      "bg": "#D9F4F6",
+      "prompt": "A cute teal suitcase character with rounded corners, a luggage tag and little travel stickers, a cute minimal face with two small dot eyes and a tiny smile, a tiny palm tree beside it"
+    },
+    {
+      "key": "occ-barrel",
+      "dir": "occasions",
+      "aspect": "3:4",
+      "style": "clay",
+      "bg": "#DDF1FB",
+      "prompt": "A cute blue shipping barrel character with a red ribbon tied around it, wrapped presents peeking out of the open lid, a cute minimal face with two small dot eyes and a tiny smile"
+    },
+    {
+      "key": "occ-kids",
+      "dir": "occasions",
+      "aspect": "3:4",
+      "style": "clay",
+      "bg": "#FEEFC9",
+      "prompt": "A cute colourful star-shaped piñata character in gold and coral with paper fringe, a cute minimal face with two small dot eyes and a big smile, a few wrapped sweets around it"
+    },
+    {
+      "key": "occ-anniversary",
+      "dir": "occasions",
+      "aspect": "3:4",
+      "style": "clay",
+      "bg": "#F9E1DC",
+      "prompt": "Two cute champagne-coloured glasses of sparkling juice clinking together, tiny bubbles and a small heart shape floating above, each glass with a cute minimal face with small dot eyes and a tiny smile"
+    },
+    {
+      "key": "balloon-arch",
+      "dir": "products",
+      "aspect": "1:1",
+      "style": "product",
+      "prompt": "A balloon garland arch kit of gold, cream and champagne latex balloons arranged in an arch shape"
+    },
+    {
+      "key": "number-balloons",
+      "dir": "products",
+      "aspect": "1:1",
+      "style": "product",
+      "prompt": "Two large gold foil number balloons shaped like the digits three and zero, side by side"
+    },
+    {
+      "key": "fairy-lights",
+      "dir": "products",
+      "aspect": "1:1",
+      "style": "product",
+      "prompt": "A warm white LED fairy light curtain with many hanging strands of tiny glowing bulbs"
+    },
+    {
+      "key": "table-confetti",
+      "dir": "products",
+      "aspect": "1:1",
+      "style": "product",
+      "prompt": "A gold metallic table runner folded neatly with a small scattered pile of round gold foil table confetti"
+    },
+    {
+      "key": "cake-gold-drip",
+      "dir": "products",
+      "aspect": "1:1",
+      "style": "product",
+      "prompt": "An elegant two-tier cream birthday cake with a glossy gold drip, fresh berries and a single gold candle, on a white cake stand"
+    },
+    {
+      "key": "cake-sorrel",
+      "dir": "products",
+      "aspect": "1:1",
+      "style": "product",
+      "prompt": "A round black forest cake with a deep red sorrel glaze on top, whipped cream rosettes and dark cherries"
+    },
+    {
+      "key": "invite-gold",
+      "dir": "products",
+      "aspect": "1:1",
+      "style": "product",
+      "prompt": "An elegant evening party invitation card in deep navy with gold foil borders and a small gold envelope"
+    },
+    {
+      "key": "patties-platter",
+      "dir": "products",
+      "aspect": "1:1",
+      "style": "product",
+      "prompt": "A large party platter of golden Jamaican beef patties and small finger sandwiches arranged neatly"
+    },
+    {
+      "key": "drinks-bar",
+      "dir": "products",
+      "aspect": "1:1",
+      "style": "product",
+      "prompt": "Three glass drink dispensers filled with ruby red sorrel, ginger beer and coconut water, with ice and lime slices"
+    },
+    {
+      "key": "spa-voucher",
+      "dir": "products",
+      "aspect": "1:1",
+      "style": "product",
+      "prompt": "A luxury spa gift set: a rolled white towel, a small bottle of oil, a candle and a lilac gift card tied with a gold ribbon"
+    },
+    {
+      "key": "bracelet",
+      "dir": "products",
+      "aspect": "1:1",
+      "style": "product",
+      "prompt": "A delicate rose gold charm bracelet with a small hibiscus flower charm, on a soft cream jewellery pillow"
+    },
+    {
+      "key": "garden-tools",
+      "dir": "products",
+      "aspect": "1:1",
+      "style": "product",
+      "prompt": "A set of ergonomic garden hand tools with sage green handles in a canvas tote bag with a pair of gardening gloves"
+    },
+    {
+      "key": "photo-book",
+      "dir": "products",
+      "aspect": "1:1",
+      "style": "product",
+      "prompt": "A personalised hardcover photo book with a linen cover, slightly open showing family photo pages"
+    },
+    {
+      "key": "cover-game-night",
+      "dir": "covers",
+      "aspect": "4:3",
+      "style": "clay",
+      "bg": "#DDF1FB",
+      "prompt": "A cosy game night at home diorama: a low round coffee table with a board game mid-play, a spread of dominoes and playing cards, a small bowl of popcorn, a platter of golden patties, two glasses of red sorrel with ice, a warm fairy-light string draped behind, and two floor cushions"
+    },
+    {
+      "key": "cover-wedding",
+      "dir": "covers",
+      "aspect": "4:3",
+      "style": "clay",
+      "bg": "#F9E1DC",
+      "prompt": "A tiny garden wedding diorama: a small white arch wrapped in blush and cream flowers, two little chairs with ribbon bows, a three-tier white cake with gold leaf on a small table, and two gold rings resting on a velvet cushion"
+    },
+    {
+      "key": "cover-trip",
+      "dir": "covers",
+      "aspect": "4:3",
+      "style": "clay",
+      "bg": "#D9F4F6",
+      "prompt": "A cheerful getaway diorama: a small teal suitcase with travel stickers, a folded beach towel, sunglasses, a straw hat, a paper airplane ticket and a tiny palm tree on a little sandy platform"
+    },
+    {
+      "key": "cover-home",
+      "dir": "covers",
+      "aspect": "4:3",
+      "style": "clay",
+      "bg": "#EFEDE8",
+      "prompt": "A moving-day diorama: a stack of three cardboard boxes with tape, a potted monstera plant, a rolled rug, a floor lamp and a small set of house keys on a gold keyring, all neatly arranged in a bright empty room corner"
+    },
+    {
+      "key": "onboard-rooftop",
+      "dir": "onboarding",
+      "aspect": "9:16",
+      "style": "cinematic",
+      "prompt": "A joyful rooftop birthday party in Kingston, Jamaica at golden hour: stylish Black Jamaican friends in their late twenties laughing and raising glasses around a table with a two-tier cream cake with a gold drip, a gold and cream balloon garland and warm string lights overhead, the Blue Mountains soft and hazy in the distance. The birthday woman is in the centre mid-laugh"
+    },
+    {
+      "key": "onboard-sourcing",
+      "dir": "onboarding",
+      "aspect": "9:16",
+      "style": "cinematic",
+      "prompt": "A friendly Jamaican personal shopper, a woman in her thirties in a navy polo shirt, walking out of the entrance of a big warehouse club store carrying full shopping bags and a boxed haul of party supplies, bright late-afternoon Caribbean sun, palm trees at the edge of the car park, a confident warm smile, candid documentary feel"
+    },
+    {
+      "key": "onboard-christmas",
+      "dir": "onboarding",
+      "aspect": "9:16",
+      "style": "cinematic",
+      "prompt": "A warm Christmas family dinner on a veranda in Montego Bay, Jamaica at sunset: three generations of a Black Jamaican family around a long table with a glazed ham, glass pitchers of deep red sorrel, a dark fruit cake, poinsettias and fairy lights, the Caribbean sea glowing gold behind them, the grandmother laughing with a grandchild on her lap"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "cover-rooftop-30th": {
+    "bg": "#F3DAAD",
+    "model": "gemini-3-pro-image"
+  },
+  "occ-birthday": {
+    "bg": "#EAD1AD",
+    "model": "gemini-3-pro-image"
+  },
+  "cake-gold-drip": {
+    "bg": "#FFFFFF",
+    "model": "gemini-3-pro-image"
+  },
+  "cover-mom-gift": {
+    "bg": "#E8E0F2",
+    "model": "gemini-3-pro-image"
+  },
+  "cover-garden-shower": {
+    "bg": "#C4C9A9",
+    "model": "gemini-3-pro-image"
+  },
+  "cover-friendsgiving": {
+    "bg": "#CBE0EA",
+    "model": "gemini-3-pro-image"
+  },
+  "cover-christmas": {
+    "bg": "#E1CAAB",
+    "model": "gemini-3-pro-image"
+  },
+  "occ-wedding": {
+    "bg": "#F4E1DA",
+    "model": "gemini-3-pro-image"
+  },
+  "occ-christmas": {
+    "bg": "#F8E3CC",
+    "model": "gemini-3-pro-image"
+  },
+  "occ-dinner": {
+    "bg": "#C8E4EF",
+    "model": "gemini-3-pro-image"
+  },
+  "occ-gift": {
+    "bg": "#E5E0F8",
+    "model": "gemini-3-pro-image"
+  },
+  "occ-home": {
+    "bg": "#EDEAE3",
+    "model": "gemini-3-pro-image"
+  },
+  "occ-trip": {
+    "bg": "#BFE2DF",
+    "model": "gemini-3-pro-image"
+  },
+  "occ-barrel": {
+    "bg": "#C3E3F2",
+    "model": "gemini-3-pro-image"
+  },
+  "occ-kids": {
+    "bg": "#F4DEB7",
+    "model": "gemini-3-pro-image"
+  },
+  "occ-anniversary": {
+    "bg": "#F2D5C9",
+    "model": "gemini-3-pro-image"
+  },
+  "balloon-arch": {
+    "bg": "#FFFFFF",
+    "model": "gemini-3-pro-image"
+  },
+  "number-balloons": {
+    "bg": "#FFFFFF",
+    "model": "gemini-3-pro-image"
+  },
+  "fairy-lights": {
+    "bg": "#FFFFFF",
+    "model": "gemini-3-pro-image"
+  },
+  "table-confetti": {
+    "bg": "#FFFFFF",
+    "model": "gemini-3-pro-image"
+  },
+  "cake-sorrel": {
+    "bg": "#FFFFFF",
+    "model": "gemini-3-pro-image"
+  },
+  "invite-gold": {
+    "bg": "#FFFFFF",
+    "model": "gemini-3-pro-image"
+  },
+  "patties-platter": {
+    "bg": "#FFFFFF",
+    "model": "gemini-3-pro-image"
+  },
+  "drinks-bar": {
+    "bg": "#FFFFFF",
+    "model": "gemini-3-pro-image"
+  },
+  "spa-voucher": {
+    "bg": "#FFFFFF",
+    "model": "gemini-3-pro-image"
+  },
+  "bracelet": {
+    "bg": "#FFFFFF",
+    "model": "gemini-3-pro-image"
+  },
+  "garden-tools": {
+    "bg": "#FFFFFF",
+    "model": "gemini-3-pro-image"
+  },
+  "photo-book": {
+    "bg": "#FFFFFF",
+    "model": "gemini-3-pro-image"
+  },
+  "occ-all": {
+    "bg": "#EDE5D7",
+    "model": "gemini-3-pro-image"
+  },
+  "occ-baby": {
+    "bg": "#CAD5BD",
+    "model": "gemini-3-pro-image"
+  },
+  "cover-game-night": {
+    "bg": "#DBEEFC",
+    "model": "gemini-3-pro-image"
+  },
+  "cover-wedding": {
+    "bg": "#F4DDCF",
+    "model": "gemini-3-pro-image"
+  },
+  "cover-trip": {
+    "bg": "#CBE8EC",
+    "model": "gemini-3-pro-image"
+  },
+  "cover-home": {
+    "bg": "#E6E2DB",
+    "model": "gemini-3-pro-image"
+  },
+  "onboard-rooftop": {
+    "bg": "#605340",
+    "model": "gemini-3-pro-image"
+  },
+  "onboard-sourcing": {
+    "bg": "#716C5E",
+    "model": "gemini-3-pro-image"
+  },
+  "onboard-christmas": {
+    "bg": "#90652F",
+    "model": "gemini-3-pro-image"
+  }
+}
